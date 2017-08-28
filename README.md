@@ -1,0 +1,1 @@
+to jest przykład do zadania 2

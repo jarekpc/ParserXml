@@ -53,6 +53,7 @@ public class MyApp {
     }
 
     private void parseDocument(){
+        logger.info("parseDocument");
         Element docEle = dom.getDocumentElement();
         //get a nodelist of <employee> elements
         NodeList nl = docEle.getElementsByTagName("Employee");
@@ -66,7 +67,7 @@ public class MyApp {
 
                 //get the Employee object
                 Employee e = getEmployee(el);
-
+                logger.info("get the Employee object");
                 //add it to list
                 myEmpls.add(e);
             }
@@ -84,7 +85,13 @@ public class MyApp {
     }
 
     private int getIntValue(Element ele, String tagName){
-        return Integer.parseInt(getTextValue(ele,tagName));
+        try {
+            return Integer.parseInt(getTextValue(ele, tagName));
+        }catch (NumberFormatException n){
+            logger.warn("NumberFormatException from getIntValue");
+            n.fillInStackTrace();
+        }
+        return 0;
     }
 
     private String getTextValue(Element ele, String tagName){
