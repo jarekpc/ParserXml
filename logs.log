@@ -9,3 +9,186 @@
 28-08-2017 15:29:10 INFO  MyApp:30 - ParseXmlFile
 28-08-2017 15:30:15 INFO  MyApp:30 - ParseXmlFile
 28-08-2017 15:30:54 INFO  MyApp:30 - ParseXmlFile
+29-08-2017 09:54:47 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 09:54:47 INFO  DomParser:60 - parseDocument
+29-08-2017 09:54:47 INFO  DomParser:74 - get the Employee object
+29-08-2017 09:54:47 INFO  DomParser:74 - get the Employee object
+29-08-2017 09:54:47 INFO  DomParser:74 - get the Employee object
+29-08-2017 09:55:30 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 09:55:30 INFO  DomParser:60 - parseDocument
+29-08-2017 09:55:30 INFO  DomParser:74 - get the Employee object
+29-08-2017 09:55:30 INFO  DomParser:74 - get the Employee object
+29-08-2017 09:55:30 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:01:25 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:01:25 INFO  DomParser:60 - parseDocument
+29-08-2017 10:01:25 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:01:25 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:01:25 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:01:58 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:01:59 INFO  DomParser:60 - parseDocument
+29-08-2017 10:01:59 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:01:59 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:01:59 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:02:37 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:02:37 INFO  DomParser:60 - parseDocument
+29-08-2017 10:02:37 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:02:37 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:02:37 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:03:04 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:03:04 INFO  DomParser:60 - parseDocument
+29-08-2017 10:03:04 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:03:04 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:03:04 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:04:17 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:04:17 INFO  DomParser:60 - parseDocument
+29-08-2017 10:04:17 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:04:17 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:04:17 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:04:17 INFO  XMLCreatorExample:99 - Plik istnieje
+29-08-2017 10:05:48 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:05:48 INFO  DomParser:60 - parseDocument
+29-08-2017 10:05:48 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:05:48 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:05:48 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:05:48 INFO  XMLCreatorExample:99 - Plik istnije!
+29-08-2017 10:06:16 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:06:16 INFO  DomParser:60 - parseDocument
+29-08-2017 10:06:16 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:06:16 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:06:16 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:06:16 INFO  XMLCreatorExample:99 - Plik istnije!
+29-08-2017 10:27:19 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:27:20 INFO  DomParser:60 - parseDocument
+29-08-2017 10:27:20 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:27:20 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:27:20 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:27:20 INFO  XMLCreatorExample:99 - Plik istnije!
+29-08-2017 10:27:39 INFO  DomParser:32 - ParseXmlFile
+29-08-2017 10:27:40 INFO  DomParser:60 - parseDocument
+29-08-2017 10:27:40 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:27:40 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:27:40 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:27:40 INFO  XMLCreatorExample:99 - Plik istnije!
+29-08-2017 10:37:02 INFO  DomParser:36 - ParseXmlFile
+29-08-2017 10:37:03 INFO  DomParser:66 - parseDocument
+29-08-2017 10:37:03 INFO  DomParser:80 - get the Employee object
+29-08-2017 10:37:03 INFO  DomParser:80 - get the Employee object
+29-08-2017 10:37:03 INFO  DomParser:80 - get the Employee object
+29-08-2017 10:37:03 INFO  XMLCreatorExample:99 - Plik istnije!
+29-08-2017 10:38:10 INFO  DomParser:36 - ParseXmlFile
+29-08-2017 10:38:10 INFO  DomParser:72 - parseDocument
+29-08-2017 10:38:10 INFO  DomParser:86 - get the Employee object
+29-08-2017 10:38:10 INFO  DomParser:86 - get the Employee object
+29-08-2017 10:38:10 INFO  DomParser:86 - get the Employee object
+29-08-2017 10:38:10 INFO  XMLCreatorExample:99 - Plik istnije!
+29-08-2017 10:41:14 INFO  DomParser:36 - ParseXmlFile
+29-08-2017 10:41:15 INFO  DomParser:65 - parseDocument
+29-08-2017 10:41:15 INFO  DomParser:79 - get the Employee object
+29-08-2017 10:41:15 INFO  DomParser:79 - get the Employee object
+29-08-2017 10:41:15 INFO  DomParser:79 - get the Employee object
+29-08-2017 10:41:15 INFO  XMLCreatorExample:110 - Plik istnije!
+29-08-2017 10:41:56 INFO  DomParser:36 - ParseXmlFile
+29-08-2017 10:41:56 INFO  DomParser:65 - parseDocument
+29-08-2017 10:41:57 INFO  DomParser:79 - get the Employee object
+29-08-2017 10:41:57 INFO  DomParser:79 - get the Employee object
+29-08-2017 10:41:57 INFO  DomParser:79 - get the Employee object
+29-08-2017 10:45:12 INFO  DomParser:31 - ParseXmlFile
+29-08-2017 10:45:13 INFO  DomParser:60 - parseDocument
+29-08-2017 10:45:13 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:45:13 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:45:13 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:45:13 INFO  DomParser:31 - ParseXmlFile
+29-08-2017 10:45:13 INFO  DomParser:60 - parseDocument
+29-08-2017 10:45:13 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:45:13 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:45:13 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:51:49 INFO  DomParser:31 - ParseXmlFile
+29-08-2017 10:51:50 INFO  DomParser:60 - parseDocument
+29-08-2017 10:51:50 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:51:50 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:51:50 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:51:50 INFO  DomParser:31 - ParseXmlFile
+29-08-2017 10:51:50 INFO  DomParser:60 - parseDocument
+29-08-2017 10:51:50 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:51:50 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:51:50 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:54:20 INFO  DomParser:31 - ParseXmlFile
+29-08-2017 10:54:21 INFO  DomParser:60 - parseDocument
+29-08-2017 10:54:21 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:54:21 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:54:21 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:54:21 INFO  DomParser:31 - ParseXmlFile
+29-08-2017 10:54:21 INFO  DomParser:60 - parseDocument
+29-08-2017 10:54:21 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:54:21 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:54:21 INFO  DomParser:74 - get the Employee object
+29-08-2017 10:56:31 INFO  DomParser:39 - ParseXmlFile
+29-08-2017 10:56:31 INFO  DomParser:68 - parseDocument
+29-08-2017 11:00:02 INFO  DomParser:40 - ParseXmlFile
+29-08-2017 11:00:03 INFO  DomParser:69 - parseDocument
+29-08-2017 11:00:03 INFO  DomParser:85 - get the Employee object
+29-08-2017 11:00:03 INFO  DomParser:85 - get the Employee object
+29-08-2017 11:00:03 INFO  DomParser:85 - get the Employee object
+29-08-2017 11:00:03 INFO  DomParser:40 - ParseXmlFile
+29-08-2017 11:00:03 INFO  DomParser:69 - parseDocument
+29-08-2017 11:00:03 INFO  DomParser:85 - get the Employee object
+29-08-2017 11:00:03 INFO  DomParser:85 - get the Employee object
+29-08-2017 11:00:03 INFO  DomParser:85 - get the Employee object
+29-08-2017 11:01:24 INFO  DomParser:40 - ParseXmlFile
+29-08-2017 11:01:24 INFO  DomParser:69 - parseDocument
+29-08-2017 11:01:24 INFO  DomParser:82 - get the Employee object
+29-08-2017 11:01:24 INFO  DomParser:82 - get the Employee object
+29-08-2017 11:01:24 INFO  DomParser:82 - get the Employee object
+29-08-2017 11:01:24 INFO  DomParser:40 - ParseXmlFile
+29-08-2017 11:01:24 INFO  DomParser:69 - parseDocument
+29-08-2017 11:01:24 INFO  DomParser:82 - get the Employee object
+29-08-2017 11:01:24 INFO  DomParser:82 - get the Employee object
+29-08-2017 11:01:24 INFO  DomParser:82 - get the Employee object
+29-08-2017 11:46:30 INFO  DomParser:64 - parseDocument
+29-08-2017 11:46:30 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:46:30 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:46:30 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:46:30 INFO  DomParser:64 - parseDocument
+29-08-2017 11:46:30 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:46:30 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:46:30 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:47:49 INFO  DomParser:64 - parseDocument
+29-08-2017 11:47:49 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:47:49 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:47:49 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:47:49 INFO  DomParser:64 - parseDocument
+29-08-2017 11:47:49 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:47:49 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:47:49 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:48:06 INFO  DomParser:64 - parseDocument
+29-08-2017 11:48:06 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:48:06 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:48:06 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:48:06 INFO  DomParser:64 - parseDocument
+29-08-2017 11:48:06 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:48:06 INFO  DomParser:76 - get the Employee object
+29-08-2017 11:48:06 INFO  DomParser:76 - get the Employee object
+29-08-2017 12:18:14 WARN  DomParser:65 - SAXException 
+29-08-2017 12:18:14 WARN  DomParser:65 - SAXException 
+29-08-2017 12:20:18 WARN  DomParser:65 - SAXException 
+29-08-2017 12:20:18 WARN  DomParser:65 - SAXException 
+29-08-2017 12:21:14 WARN  DomParser:65 - SAXException 
+29-08-2017 12:21:14 WARN  DomParser:65 - SAXException 
+29-08-2017 12:22:29 WARN  DomParser:65 - SAXException 
+29-08-2017 12:22:29 WARN  DomParser:65 - SAXException 
+29-08-2017 12:34:07 WARN  DomParser:65 - SAXException 
+29-08-2017 12:34:27 WARN  DomParser:65 - SAXException 
+29-08-2017 12:34:53 WARN  DomParser:65 - SAXException 
+29-08-2017 12:35:11 WARN  DomParser:65 - SAXException 
+29-08-2017 12:35:11 WARN  DomParser:65 - SAXException 
+29-08-2017 14:21:35 WARN  DomParser:65 - SAXException 
+29-08-2017 14:21:35 WARN  DomParser:65 - SAXException 
+29-08-2017 14:26:09 WARN  DomParser:67 - SAXException 
+29-08-2017 14:26:09 WARN  DomParser:67 - SAXException 
+29-08-2017 14:26:46 WARN  DomParser:67 - SAXException 
+29-08-2017 14:26:46 WARN  DomParser:67 - SAXException 
+29-08-2017 14:27:54 WARN  DomParser:68 - SAXException 
+29-08-2017 14:27:54 WARN  DomParser:68 - SAXException 
+29-08-2017 14:28:57 WARN  DomParser:68 - SAXException 
+29-08-2017 14:28:57 WARN  DomParser:68 - SAXException 
+29-08-2017 14:58:34 WARN  DomParser:105 - SAXException 

@@ -2,8 +2,11 @@ package com.jarek;
 
 import org.apache.xml.serialize.OutputFormat;
 import org.apache.xml.serialize.XMLSerializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 import org.w3c.dom.Text;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -12,16 +15,17 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class XMLCreatorExample {
 
-    List<Employee> myEmpls =  new ArrayList<Employee>();
-    Document dom;
+    private List<Employee> myEmpls;// =  new ArrayList<Employee>();
+    private Document dom;
+    private Logger logger = LoggerFactory.getLogger(XMLCreatorExample.class);
+
 
     XMLCreatorExample(){
-        myEmpls.add(new Employee(1,"Aaa",12,"bb"));
+        myEmpls = new DomParser().getMyEmpls();
         createDocument();
         createDOMTree();
         printToFile();
@@ -38,44 +42,57 @@ public class XMLCreatorExample {
     }
 
     void createDocument() {
-        //get an instance of factory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         try {
-            //get an instance of builder
             DocumentBuilder db = dbf.newDocumentBuilder();
-
-            //create an instance of DOM
             dom = db.newDocument();
 
         }catch(ParserConfigurationException pce) {
-            //dump it
-            System.out.println("Error while trying to instantiate DocumentBuilder " + pce);
+            logger.warn("Error while trying to instantiate DocumentBuilder " + pce);
             System.exit(1);
         }
     }
 
-    private Element createEmployeeElement(Employee e){
-        Element bookEle = dom.createElement("Employee");
-        bookEle.setAttribute("Type", e.getType());
+    private int getIntValue(Element ele, String tagName) {
+        try {
+            return Integer.parseInt(getTextValue(ele,tagName));
+        }catch (NumberFormatException n){
+            logger.warn("NumberFormatException from getIntValue");
+            n.fillInStackTrace();
+            return 0;
+        }
+    }
 
+    private String getTextValue(Element ele, String tagName) {
+        String textVal = null;
+        NodeList nl = ele.getElementsByTagName(tagName);
+        if(nl != null && nl.getLength() > 0) {
+            Element el = (Element)nl.item(0);
+            textVal = el.getFirstChild().getNodeValue();
+        }
+        return textVal;
+    }
+
+    private Element createEmployeeElement(Employee e){
+        Element emplEle = dom.createElement("Employee");
+        emplEle.setAttribute("type", e.getType());
+        //
         Element bName = dom.createElement("Name");
         Text bNemaText = dom.createTextNode(e.getName());
         bName.appendChild(bNemaText);
-        bookEle.appendChild(bName);
-        //create author element and author text node and attach it to bookElement
-        Element authEle = dom.createElement("Type");
-        Text authText = dom.createTextNode(e.getType());
-        authEle.appendChild(authText);
-        bookEle.appendChild(authEle);
-
-        //create title element and title text node and attach it to bookElement
-        /*
-        Element titleEle = dom.createElement("Title");
-        Text titleText = dom.createTextNode(b.getTitle());
-        titleEle.appendChild(titleText);
-        bookEle.appendChild(titleEle);
-        */
-        return bookEle;
+        emplEle.appendChild(bName);
+        //
+        Element bId = dom.createElement("Id");
+        Text iId = dom.createTextNode(new Integer(e.getId()).toString());
+        bId.appendChild(iId);
+        emplEle.appendChild(bId);
+        //
+        Element bAge = dom.createElement("Age");
+        Text iAge = dom.createTextNode(new Integer(e.getAge()).toString());
+        bAge.appendChild(iAge);
+        emplEle.appendChild(bAge);
+        
+        return emplEle;
 
     }
 
@@ -83,21 +100,16 @@ public class XMLCreatorExample {
 
         try
         {
-            //print
             OutputFormat format = new OutputFormat(dom);
             format.setIndenting(true);
 
-            //to generate output to console use this serializer
-            //XMLSerializer serializer = new XMLSerializer(System.out, format);
-
-
-            //to generate a file output use fileoutputstream instead of system.out
             XMLSerializer serializer = new XMLSerializer(
-                    new FileOutputStream(new File("book.xml")), format);
+                    new FileOutputStream(new File("src/main/resources/export.xml")), format);
 
             serializer.serialize(dom);
 
         } catch(IOException ie) {
+            logger.warn("IOException from printToFile");
             ie.printStackTrace();
         }
     }

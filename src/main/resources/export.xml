@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Personnel>
     <Employee type="permanent">
         <Name>Seagull</Name>
@@ -16,4 +16,3 @@
         <Age>28</Age>
     </Employee>
 </Personnel>
-
