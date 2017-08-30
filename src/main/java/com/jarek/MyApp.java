@@ -6,7 +6,5 @@ public class MyApp {
         DomParser domParser = new DomParser();
         //
         XMLCreatorExample xmlCreatorExample = new XMLCreatorExample();
-
-
     }
 }

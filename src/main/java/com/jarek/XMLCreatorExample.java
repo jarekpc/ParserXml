@@ -22,10 +22,10 @@ public class XMLCreatorExample {
     private List<Employee> myEmpls;// =  new ArrayList<Employee>();
     private Document dom;
     private Logger logger = LoggerFactory.getLogger(XMLCreatorExample.class);
-
+    DomParser domParser = new DomParser();
 
     XMLCreatorExample(){
-        myEmpls = new DomParser().getMyEmpls();
+        myEmpls = domParser.getMyEmpls();
         createDocument();
         createDOMTree();
         printToFile();
@@ -75,7 +75,6 @@ public class XMLCreatorExample {
 
     private Element createEmployeeElement(Employee e){
         Element emplEle = dom.createElement("Employee");
-        emplEle.setAttribute("type", e.getType());
         //
         Element bName = dom.createElement("Name");
         Text bNemaText = dom.createTextNode(e.getName());
